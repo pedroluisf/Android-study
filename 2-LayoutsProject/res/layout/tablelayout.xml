@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_marginTop="20dp">
+
+          <TextView
+              android:text="@string/label" 
+              android:layout_marginLeft="10dp" 
+              android:layout_gravity="center_vertical">  
+          </TextView>    
+
+          <Spinner
+               android:id="@+id/spinnerTableLayout" 
+               android:layout_marginLeft="20dp">  
+        </Spinner>
+	</TableRow>
+    <RadioGroup         
+		android:id="@+id/rGroupTableLayout" 
+        android:orientation="horizontal" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="30dp">
+
+        <RadioButton 
+        	android:id="@+id/op1TableLayout" 
+            android:text="@string/option1" 
+            android:checked="true">  
+        </RadioButton>
+        <RadioButton
+        	android:id="@+id/op2TableLayout" 
+            android:text="@string/option2">  
+        </RadioButton>
+	</RadioGroup>    
+</TableLayout>

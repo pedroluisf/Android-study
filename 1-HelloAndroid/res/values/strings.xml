@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+	<string name="hello">Hello World, HelloAndroid!</string>
+	<string name="app_name">Hello Android</string>
+	<string name="myButtonToOpenNewActivity">Mostrar texto na Nova Activity</string>
+	<string name="myTextView">Escreva um texto:</string>
+	<string name="myButton">Mostrar texto na Toast Message</string>
+</resources>

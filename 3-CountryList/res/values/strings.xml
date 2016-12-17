@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">CountryList</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_country_list">CountryListActivity</string>
+    
+    <string name="noitems_label">Não existem itens</string>
+    <string name="continent_label">Continentes:</string>
+    <string name="name_label">Name:</string>
+    
+    <string name="preferences_label">Preferências</string>
+    <string name="refresh_label">Actualizar</string>
+</resources>

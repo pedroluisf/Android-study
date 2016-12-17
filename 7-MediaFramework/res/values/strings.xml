@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">MediaFramework</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_media_framework">MediaFrameworkActivity</string>
+    
+    <string name="savemenu">Save</string>
+
+</resources>

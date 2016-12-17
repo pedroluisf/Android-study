@@ -1,0 +1,3 @@
+CREATE TABLE tbl_country (id_country INTEGER PRIMARY KEY AUTOINCREMENT, name VARCHAR(75) NOT NULL, ISO VARCHAR(2) NOT NULL, latitude FLOAT NOT NULL, longitude FLOAT NOT NULL); 
+CREATE TABLE tbl_place (id_place INTEGER PRIMARY KEY AUTOINCREMENT, id_country INTEGER, country_capital INT NOT NULL DEFAULT(0), name VARCHAR(75) NOT NULL, latitude FLOAT NOT NULL, longitude FLOAT NOT NULL, population INT NOT NULL); 
+cREATE TABLE tbl_weather_condition (id_place INTEGER, date_condition VARCHAR(10), temperature INTEGER, min_temperature INTEGER, max_temperature INTEGER, description VARCHAR(50), observation_time VARCHAR(50), windspeed_miles INTEGER, windspeed_kmph INTEGER, wind_direction VARCHAR(10), precipitation NUMERIC, humidity INTEGER, icon TEXT);

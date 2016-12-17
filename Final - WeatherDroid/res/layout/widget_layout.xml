@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+      xmlns:android="http://schemas.android.com/apk/res/android" 
+      android:orientation="horizontal" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:background="@drawable/widget_frame_4x1" 
+      android:padding="20dp">
+
+    <ImageView
+		android:id="@+id/wid_imgWeather" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:contentDescription="@string/icon"/>
+    
+    <LinearLayout    
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45"     
+    	android:orientation="vertical" >
+
+        <TextView android:id="@+id/wid_txtCityName" 
+            android:layout_marginLeft="10dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textStyle="bold" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+        <TextView android:id="@+id/wid_txtWeather" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+   	    <TextView android:id="@+id/wid_txtTempMax" 
+	        android:layout_marginLeft="8dp" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:textColor="#fff">
+	  	</TextView> 
+	  	
+    </LinearLayout>
+    
+    <LinearLayout    
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0.55"     
+    	android:orientation="vertical" >
+
+        <TextView android:id="@+id/wid_txtHumidity" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+        <TextView android:id="@+id/wid_txtPrecipitation" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+   	    
+   	    <TextView android:id="@+id/wid_txtTempMin" 
+	        android:layout_marginLeft="8dp" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:textColor="#fff">
+	  	</TextView> 
+	  		
+    </LinearLayout>
+    
+</LinearLayout>

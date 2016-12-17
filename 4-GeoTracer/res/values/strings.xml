@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">GeoTracer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_geo_tracer">GeoTracer</string>
+
+    <string name="noconnection_label">No internet connection available! Maps will not be drawn.</string>
+    <string name="nogps_label">GPS is disabled. Your location will not be updated.</string>
+     
+    
+</resources>

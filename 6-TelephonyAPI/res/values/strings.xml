@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">TelephonyAPI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_telephone">TelephoneActivity</string>
+    
+    <string name="telephone">Telephone Number</string>
+    <string name="call">Make the Call</string>
+    <string name="smstext">Text to send</string>
+    <string name="sendsms">Send SMS</string>
+    
+
+</resources>

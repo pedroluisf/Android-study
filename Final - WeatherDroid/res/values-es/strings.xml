@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WeatherDroid</string>
+    <string name="icon">Icon</string>
+    <string name="loading">Cargando&#8230; Por favor aguarde</string>
+    <string name="by_location_label">Buscar por localización</string>
+    <string name="location_failed">No ha sido possivel obtener localizatión&#8230;\nAssumidos valores por omission</string>
+    <string name="country_label">País</string>
+    <string name="city_label">Ciudade</string>
+    <string name="location_preferences_label">Preferencias de localizatión</string>
+    <string name="city_by_location_label">Usar my localizatión</string>
+    <string name="noitems_label">No hay artículos&#8230;</string>
+    <string name="refresh_label">Refrescar</string>
+    <string name="view_map_label">Ver en el mapa</string>
+    <string name="settings_label">Configuracíones</string>
+    <string name="no_data_found">No hay datos&#8230;</string>   
+    <string name="population">Población</string>
+    <string name="humidity">Humedad</string>
+    <string name="precipitation">Precip.</string>
+    <string name="temperature">Temp.</string>
+    <string name="max_temperature">Max</string>
+    <string name="min_temperature">Min</string>
+    <string name="updating_database">WeatherDroid está actualizando la Base de Datos</string>
+    <string name="finish_updating_database">WeatherDroid se ha acabado de actualizar la Base de datos</string>
+</resources>

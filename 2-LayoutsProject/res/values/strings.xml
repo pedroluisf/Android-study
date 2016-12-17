@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">LayoutsProject</string>
+    
+    <string name="option1">Opção 1</string>
+    <string name="option2">Opção 2</string>
+    <string name="label">País</string>
+</resources>

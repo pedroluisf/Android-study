@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent" 
+    android:orientation="horizontal" 
+    android:layout_height="?android:attr/listPreferredItemHeight" 
+    android:padding="6dp">
+
+    <ImageView
+		android:id="@+id/imgWeather" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:contentDescription="@string/icon"/>
+    
+    <LinearLayout    
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"     
+    	android:orientation="vertical" >
+
+        <TextView android:id="@+id/txtCityName" 
+            android:layout_marginLeft="10dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textStyle="bold" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+        <TextView android:id="@+id/txtWeather" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+   	    <TextView android:id="@+id/txtTempCurr" 
+	        android:layout_marginLeft="8dp" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:textColor="#fff">
+	  	</TextView> 
+	  	
+    </LinearLayout>
+    
+    <LinearLayout    
+        android:layout_width="0dp" 
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"     
+    	android:orientation="vertical" >
+
+        <TextView android:id="@+id/txtHumidity" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+        <TextView android:id="@+id/txtPrecipitation" 
+            android:layout_marginLeft="8dp" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:textColor="#fff">
+      	</TextView> 
+      	
+   	    <TextView android:id="@+id/txtTempMaxMin" 
+	        android:layout_marginLeft="8dp" 
+	        android:layout_width="fill_parent" 
+	        android:layout_height="fill_parent" 
+	        android:textColor="#fff">
+	  	</TextView> 
+	  	
+    </LinearLayout>
+
+</LinearLayout>

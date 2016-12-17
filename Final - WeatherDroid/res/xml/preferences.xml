@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="Weather Location Info" >
+		<CheckBoxPreference
+                        android:title="Use my Current Location"
+                        android:defaultValue="false"
+                        android:summary="check this to use current location for weather information"
+                        android:key="use_location_pref" />
+
+		<ListPreference 
+            android:title="Countries" 
+            android:summary="Select country to show info on App" 
+            android:key="country_pref" 
+            android:defaultValue="1" />
+
+		<ListPreference 
+            android:title="Place" 
+            android:summary="Select City to show in the widget. Must be from same country selected for App" 
+            android:key="city_pref" 
+            android:defaultValue="0" />
+
+	</PreferenceCategory>
+	
+    <PreferenceCategory android:title="Weather Location Info" >
+
+		<ListPreference 
+            android:title="Automatic Update Frequency" 
+            android:summary="Select the frequency of automatic updates (in hours)" 
+            android:key="auto_freq_pref" 
+            android:defaultValue="24" />
+    
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+  android:orientation="vertical" 
+  android:layout_width="fill_parent" 
+  android:layout_height="fill_parent" 
+  >
+
+  <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/telephone" 
+  />
+
+  <!-- Caixa de texto onde será introduzido o número de telefone -->    
+  <EditText
+    android:id="@+id/txtNumber" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:inputType="phone" 
+  /> 
+
+  <!-- Botão para realizar chamada -->    
+  <Button
+    android:id="@+id/btnMakeCall" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/call" 
+  />
+
+  <TextView
+    android:paddingTop="20dp"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/smstext" 
+  />
+
+  <!-- Caixa de texto que irá conter o texto da SMS a enviar -->    
+  <EditText
+    android:id="@+id/txtSmsText" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:singleLine="false" 
+    android:minLines="3" 
+    android:maxLines="5" 
+    android:gravity="top" 
+    android:inputType="text"
+  />
+
+  <!-- Botão para enviar a SMS -->    
+  <Button
+    android:id="@+id/btnSendSms" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sendsms" 
+  />    
+</LinearLayout>
+
